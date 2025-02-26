@@ -1,0 +1,189 @@
+@import url(https://fonts.google.com/specimen/Tangerine?categoryFilters=Calligraphy:%2FScript%2FFormal);
+
+body {
+    background-color: #eac1fb;
+}
+
+:root {
+    --primary-color: ##9806f9;
+    --primary-color-dark: #885d8b;
+    --secondary-color: #eac1fb;
+    --text-dark: #18021d;
+    --text-light: #766875;
+    --extra-light: #ffffff;
+    --max-width: 1200px;
+}
+
+header {
+    text-align: center;
+    text-decoration: var(--text-dark);
+    background-color: var(--primary-color-dark);
+    padding: 0.8rem;
+}
+
+h1 {
+    text-decoration: #0e0111;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.1rem;
+    background-color: var(--primary-color-dark);
+}
+
+.navegacion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--text-light);
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+}
+
+.link a {
+    color: var(--text-dark);
+    transition: 0.3s;
+}
+
+link a:hover {
+    color: var(--primary-color);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    background-color: var(--secondary-color);
+}
+
+main aside {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 5rem;
+    background-color: var(--primary-color-dark);
+}
+
+.aside-foto img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.2rem solid var(--secondary-color);
+    height: 150px;
+}
+
+#info .aside-foto {
+    display: flex;
+    justify-content: space-around;
+}
+
+.informacion {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto {
+    text-align: center;
+    text-decoration: var(--text-dark);
+}
+
+.referencias {
+    text-align: center;
+    text-decoration: var(--text-dark);
+}
+
+.referencias h4 {
+    text-align: center;
+    color: var(--text-light);
+    text-decoration: var(--text-dark);
+}
+
+.habilidades {
+    text-align: center;
+    text-decoration: var(--text-dark);
+}
+
+.informacion p {
+    align-items: center;
+    text-align: center;
+}
+
+.informacion h4 {
+    color: var(--text-dark);
+    align-items: center;
+    text-align: center;
+}
+
+.informacion li {
+    align-items: center;
+    text-align: center;
+}
+
+.main-informacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-informacion {
+    padding: 5rem;
+}
+
+#sobremi h2 {
+    text-align: center;
+    color: var(--text-dark);
+}
+
+#sobremi p {
+    text-align: center;
+}
+
+#experiencia h2 {
+    text-align: center;
+    color: var(--text-dark);
+}
+
+#experiencia h3 {
+    text-align: center;
+    color: var(--text-light);
+}
+
+#experiencia p {
+    text-align: center;
+}
+
+#educacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#educacion h2 {
+    text-align: center;
+    color: var(--text-dark);
+}
+
+#educacion h4 {
+    text-align: center;
+    color: var(--text-light);
+}
+
+#educacion p {
+    text-align: center;
+}
+
+footer {
+    background-color: var(--primary-color-dark);
+    display: flex;
+    justify-content: center;
+}
+
